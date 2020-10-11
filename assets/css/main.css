@@ -1255,12 +1255,12 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+			
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
+				top: calc(-3.5rem  - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
