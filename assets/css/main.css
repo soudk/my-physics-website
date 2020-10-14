@@ -622,6 +622,46 @@ input, select, textarea {
 
 /* Image */
 
+/*Start of Content Image*/
+/* Parent Container */
+	.content_img{
+	 position: relative;
+	 width: 48%;
+	 height: 200px;
+	 float: left;
+	 margin-right: 10px;
+	}
+
+	/* Child Text Container */
+	.content_img div{
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 background: black;
+	 color: white;
+	 margin-bottom: 23px;
+	 font-family: sans-serif;
+	 opacity: 0;
+	 visibility: hidden;
+	 -webkit-transition: visibility 0s, opacity 0.5s linear; 
+	 transition: visibility 0s, opacity 0.5s linear;
+	}
+
+	/* Hover on Parent Container */
+	.content_img:hover{
+	 cursor: pointer;
+	}
+
+	.content_img:hover div{
+	 width: 100%;
+	 padding: 8px 15px;
+	 visibility: visible;
+	 opacity: 0.7; 
+	}
+
+	/*End of Content Image*/
+
+
 	.image {
 		border-radius: 4px;
 		border: 0;
